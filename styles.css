@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #101015;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fira Code";
+}
+
+main {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  border-radius: 10px; 
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  background-color: #506385;
+  display: flex;
+  
+  justify-content: center;
+  gap: 3rem;
+}
+
+.top-board {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.top-board h2{
+  color: #fefeec;
+}
+
+.number {
+  background-color: white;
+  height: 2rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+  font-size: 1.25rem;
+}
+
+.gamepad{
+    padding: .5rem;
+    gap: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: cent;
+    background-color: #1f1f22;
+   
+}
+
+.bubble {
+    background-color: #adada4;
+    color: #232323;
+    width:2.5rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bubble:hover{
+  background-color: #506385;
+  color: #adada4;
+  cursor: pointer;
+}
+
+.game-area{
+  background-color: blue;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.game-over {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
